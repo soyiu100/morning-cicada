@@ -8,6 +8,15 @@ The purpose of this repository is to post monthly or bi-monthly updates on the p
 ---
 ![image](https://drive.google.com/uc?export=view&id=1cdWVLehoUuRAevVMhDhpSUMbow1FdYvJ)
 ## Progress Report
+### January 2024
+openGL instancing
+
+cooking results
+
+https://github.com/soyiu100/morning-cicada/assets/31663498/51433a41-275c-446c-b7a8-3680edf16433
+
+
+openCV
 ### December 2023
 Hello! Here's a quick update before the year ends. So far at a high level summary, it's been a lot of bringing over code from my Lua project, refactoring it, and then making it all work. Also, a lot of tweaking/usuability updates to the graphics methods I have set up from the tutorial days.  
 Even then, there are a lot of unique updates, so perhaps a video summarizing all of the changes would be more appropriate:

@@ -8,6 +8,22 @@ The purpose of this repository is to post monthly or bi-monthly updates on the p
 ---
 ![image](https://drive.google.com/uc?export=view&id=1cdWVLehoUuRAevVMhDhpSUMbow1FdYvJ)
 ## Progress Report
+### February 2024
+Dry month, no major visual updates. :'-)  
+I've been primarily occupied with bug fixing, refactoring, and brainstorming on how to draw certain things and plot points.  
+One of the things I've been thinking about is drawing curved, filled polygons. I've found an article on how to draw curves using [Catmull-Rom splines](https://enochtsang.com/articles/tessellation-shaders-isolines), but this requires a couple big things from me:
+- Upgrading my OpenGL project from 3.3 to 4.0 or above.
+- Going through more tutorial, beyond the book that I'm currently reading.
+- And most importantly, figuring out how to turn this into a filled polygon.
+
+In short, a lot of work. I'm also a bit hesitant to dig in and tear apart at the seams of my project for something that might not give me the results I want, but I'm putting this on the "Very Important Backburner" (**VIB**) for now (and making a note here).
+
+I did have a way to do it before in Lua (and have it ported over to C++ in the meantime), but I fear it's rather naive and not very robust in terms of drawing curves flawlessly and/or cleanly. I'm already seeing that there were errors in my math I did not notice, and I've been working on fixing those in my port-over.  
+
+Overall, I predict that in the coming months, feature-wise, this project will not advance.  
+Like I mentioned, I do want to brainstorm a bit more before rushing out plot points or gimmicks. I have been putting down railroad tracks while the train is running, and then tried pushing the train back and forth...  
+That being said, what's been implemented has already been thought through (at least 3 times) and pumped out into this C++ project. For other features, I would like to spend time to think through and weigh out.
+
 ### January 2024
 There are a lot of small and fast updates here and there, as I'm getting the grip of how I want my project to be structured.  
 I went back to the tutorial to learn about instancing, and then modify my internal graphics controllers to account for it.  
